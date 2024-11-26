@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Poppins Black';
+    src: url('./fonts/Poppins-Black.ttf');
+}
+@font-face {
+    font-family: 'Poppins Medium';
+    src: url('./fonts/Poppins-Medium.ttf');
+}
+@font-face {
+    font-family: 'Poppins Regular';
+    src: url('./fonts/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: 'Poppins Bold';
+    src: url('./fonts/Poppins-Bold.ttf');
+}
+@font-face {
+    font-family: 'Poppins Black';
+    src: url('./fonts/poppins-Black.ttf');
+}
+
+
+.wrapper {
+    width: 102rem
+}
+.wrapper-selectors {
+    width: 1577px
+}
+.app-wrapper {
+    width: 1483px;
+}
+body {
+    font-family: 'Poppins Regular', serif;
+}
+.bold-font-face {
+    font-family: 'Poppins Black', serif;
+}
+.padding-title {
+    padding-left: 119px;
+    padding-top: 77px;
+}
+.title-img {
+    background: url('./images/backgrounds/title-img.png') no-repeat right bottom #F4F6F5;
+}
+.title-white--modified {
+    position: relative;
+    z-index: 2;
+    /*width: 465px;*/
+}
+.title-white--modified::before {
+    background-color: white;
+    display: inline-block;
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transform: rotate(-2deg);
+    width: 465px;
+    height: 112px;
+    left: -35px;
+    top: -15px;
+}
+.title-gold--modified {
+    position: relative;
+    z-index: 2;
+}
+.title-gold--modified::before {
+    background-color: #EBD96B;
+    display: inline-block;
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transform: rotate(-2deg);
+    width: 495px;
+    height: 117px;
+    left: -35px;
+    top: -19px;
+}
+.yellow-block {
+    background: url("images/backgrounds/Banner.png") no-repeat center;
+    /*background-size: auto;*/
+    margin: 0 auto;
+}
+.custom__form {
+    position: relative;
+}
+.custom__form button {
+    position: absolute;
+    left: 425px;
+    top: 10px;
+}
